@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--定义一下百分比控件属性-->
+    <declare-styleable name="PercentView">
+        <attr name="percent_background_color" format="color" /><!--圆形背景色-->
+        <attr name="percent_circle_progress" format="integer" /><!--当前进度值-->
+        <attr name="percent_progress_color" format="color" /><!--进度显示颜色-->
+        <attr name="percent_circle_radius" format="dimension" /><!--圆形半径-->
+
+        <attr name="percent_circle_gravity"><!--圆形绘制的位置-->
+            <flag name="left" value="0" />
+            <flag name="top" value="1" />
+            <flag name="center" value="2" />
+            <flag name="right" value="3" />
+            <flag name="bottom" value="4" />
+        </attr>
+
+    </declare-styleable>
+</resources>
+
+<!--
+format表示这个属性的值的类型,类型有以下几种:
+reference:引用资源
+
+string:字符串
+
+Color：颜色
+
+boolean：布尔值
+
+dimension：尺寸值
+
+float：浮点型
+
+integer：整型
+
+fraction：百分数
+
+enum：枚举类型
+
+flag：位或运算
+
+-->
